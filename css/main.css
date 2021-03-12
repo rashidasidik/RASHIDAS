@@ -1,0 +1,76 @@
+#hero{
+    background-color: violet;
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero div{
+    width: 50%;
+    color: blue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: chartreuse;
+}
+#contact{
+    background-color: orange;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 80%;
+}
+#logo img{
+    height: 100px;
+}
+#logo{
+    display: flex;
+}
+#home-info{
+    background-color: cornsilk;
+    height: 150vh;
+    color: black;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+footer img{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: solid green;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#home-info img{
+    height: 300px;
+}
